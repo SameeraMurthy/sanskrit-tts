@@ -1,0 +1,25 @@
+{
+  "name": "sanskrit-tts",
+  "version": "1.0.0",
+  "description": "Generate text-to-speech for Sanskrit.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SameeraMurthy/sanskrit-tts.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sanskrit",
+    "text-to-speech",
+    "tts",
+    "voice"
+  ],
+  "author": "Sameer Murthy",
+  "license": "MIT",
+  "dependencies": {
+    "google-tts-api": "^2.0.2",
+    "sanscriptjs": "^0.0.1"
+  }
+}
